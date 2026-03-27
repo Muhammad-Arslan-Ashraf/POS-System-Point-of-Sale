@@ -1,9 +1,7 @@
 # 🍔 POS System — Point of Sale
 
 A complete Point of Sale (POS) system built for restaurants and burger shops.
-Manage categories, items, orders, and sales — all in one place.
-
----
+Manage categories, items, orders, and sales all in one place.
 
 ## ✨ Features
 
@@ -18,8 +16,6 @@ Manage categories, items, orders, and sales — all in one place.
 - 👨‍💼 **Cashier Info** — Cashier name and shift tracking
 - 💾 **Local Storage** — All data saved locally, no backend required
 
----
-
 ## 🛠️ Tech Stack
 
 | Technology       | Version  |
@@ -32,5 +28,3 @@ Manage categories, items, orders, and sales — all in one place.
 | Tailwind CSS     | 4.2.2    |
 | Vite             | Latest   |
 | LocalStorage     | Built-in |
-
----
