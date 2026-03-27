@@ -112,9 +112,24 @@ const POSPage = () => {
                   ),
                 )
               ) : (
-                // Agar kuch na mile toh message dikhayein
+                /* Yahan ':' ka hona zaroori hai jo 'else' ka kaam karta hai */
                 <div className="col-span-full text-center py-10 text-slate-400">
-                  No items found matching "{searchName}"
+                  {searchName.trim() !== "" ? (
+                    <p>No items found matching "{searchName}"</p>
+                  ) : (
+                    <div className="space-y-2">
+                      <p className="text-lg font-medium text-slate-500">
+                        No items in this catalog yet.
+                      </p>
+                      <p className="text-sm">
+                        Please go to{" "}
+                        <span className="text-indigo-500 font-bold italic">
+                          Categories
+                        </span>{" "}
+                        to add new items.
+                      </p>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
