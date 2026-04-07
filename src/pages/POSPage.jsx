@@ -125,7 +125,7 @@ const POSPage = () => {
                         Please go to{" "}
                         <span className="text-indigo-500 font-bold italic">
                           Categories
-                        </span>{" "}
+                        </span>
                         to add new items.
                       </p>
                     </div>

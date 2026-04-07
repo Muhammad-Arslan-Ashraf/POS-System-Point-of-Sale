@@ -164,9 +164,11 @@ const CategoryPage = () => {
           }}
         />
       )}
+
       {itemModal.isOpen && (
         <ItemsModal onClose={itemModal.close} category={itemModal.data} />
       )}
+
       {editItem.isOpen && (
         <ItemsModal onClose={editItem.close} itemData={editItem.data} />
       )}
