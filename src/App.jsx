@@ -12,7 +12,7 @@ const App = () => {
       path: "/",
       element: <Layout />,
       children: [
-        { path: "/", index: true, element: <POSPage /> },
+        { index: true, element: <POSPage /> },
         { path: "categories", element: <CategoryPage /> },
         { path: "sales", element: <SalesPage /> },
       ],
